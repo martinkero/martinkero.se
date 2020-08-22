@@ -17,10 +17,10 @@ export const Card = () =>
         </section>
         <footer>
             <div className="link">
-                <a href="https://www.linkedin.com/in/martin-kero-63308950" target="_blank">Linkedin</a>
+                <a href="https://www.linkedin.com/in/martin-kero-63308950" target="_blank" rel="noopener noreferrer">Linkedin</a>
             </div>
             <div className="link">
-                <a href="https://github.com/martinkero" target="_blank">GitHub</a>
+                <a href="https://github.com/martinkero" target="_blank" rel="noopener noreferrer">GitHub</a>
             </div>
         </footer>
     </div>
