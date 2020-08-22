@@ -1,0 +1,27 @@
+.app {
+  color: #151C24;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #212830;
+  text-align: center;
+}
+
+.app>footer {
+  position: absolute;
+  bottom: .2rem;
+  left: .2rem;
+}
+
+.app>footer a {
+  text-decoration: none;
+  color: gray;
+}
+
+.app>footer a:visited {
+  color: gray;
+}
