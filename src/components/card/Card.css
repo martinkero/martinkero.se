@@ -18,6 +18,13 @@
 
 .card section {
     min-height: 20rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card section .wip {
+    font-size: 5rem;
 }
 
 .card footer {
@@ -30,4 +37,12 @@
 .card footer .link {
     flex-direction: row;
     padding: 1rem;
+}
+
+.card footer .link>a {
+    text-decoration: none;
+}
+
+.card footer .link>a:visited {
+    color: inherit;
 }

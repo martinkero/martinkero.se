@@ -13,14 +13,14 @@ export const Card = () =>
             </p>
         </header>
         <section>
-
+            <div className="wip">WIP</div>
         </section>
         <footer>
             <div className="link">
-                Linkedin
+                <a href="https://www.linkedin.com/in/martin-kero-63308950" target="_blank">Linkedin</a>
             </div>
             <div className="link">
-                GitHub
+                <a href="https://github.com/martinkero" target="_blank">GitHub</a>
             </div>
         </footer>
     </div>
