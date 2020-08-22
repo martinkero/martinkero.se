@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio-fe/static/css/main.88665c73.chunk.css",
+    "main.js": "/portfolio-fe/static/js/main.a217c981.chunk.js",
+    "main.js.map": "/portfolio-fe/static/js/main.a217c981.chunk.js.map",
+    "runtime-main.js": "/portfolio-fe/static/js/runtime-main.9017d80c.js",
+    "runtime-main.js.map": "/portfolio-fe/static/js/runtime-main.9017d80c.js.map",
+    "static/js/2.1c2bba13.chunk.js": "/portfolio-fe/static/js/2.1c2bba13.chunk.js",
+    "static/js/2.1c2bba13.chunk.js.map": "/portfolio-fe/static/js/2.1c2bba13.chunk.js.map",
+    "index.html": "/portfolio-fe/index.html",
+    "precache-manifest.9c3979035c20c0f2a46042fd68f55934.js": "/portfolio-fe/precache-manifest.9c3979035c20c0f2a46042fd68f55934.js",
+    "service-worker.js": "/portfolio-fe/service-worker.js",
+    "static/css/main.88665c73.chunk.css.map": "/portfolio-fe/static/css/main.88665c73.chunk.css.map",
+    "static/js/2.1c2bba13.chunk.js.LICENSE.txt": "/portfolio-fe/static/js/2.1c2bba13.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/portfolio-fe/static/media/open-sans-v17-latin-regular.de0869e3.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9017d80c.js",
+    "static/js/2.1c2bba13.chunk.js",
+    "static/css/main.88665c73.chunk.css",
+    "static/js/main.a217c981.chunk.js"
+  ]
+}
