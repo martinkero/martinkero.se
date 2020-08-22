@@ -1,6 +1,11 @@
 language: node_js
 node_js:
   - node
+cache:
+  directories:
+  - node_modules
+script:
+  - npm run build
 deploy:
   provider: pages
   skip_cleanup: true
@@ -9,3 +14,4 @@ deploy:
   on:
     branch: master
   fqdn: martinkero.se
+  local_dir: build
