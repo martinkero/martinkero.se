@@ -37,12 +37,5 @@
 .card footer .link {
     flex-direction: row;
     padding: 1rem;
-}
-
-.card footer .link>a {
-    text-decoration: none;
-}
-
-.card footer .link>a:visited {
-    color: inherit;
+    font-weight: 600;
 }

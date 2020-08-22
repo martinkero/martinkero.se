@@ -1,0 +1,11 @@
+.link {
+    text-decoration: none;
+}
+
+.link:hover {
+    background-color: #787878;
+}
+
+.link:visited {
+    color: inherit;
+}

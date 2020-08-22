@@ -1,6 +1,7 @@
 import React from 'react';
 
-import './Card.css'
+import './Card.css';
+import { Link } from '../link/Link';
 
 export const Card = () =>
     <div className="card">
@@ -16,11 +17,7 @@ export const Card = () =>
             <div className="wip">WIP</div>
         </section>
         <footer>
-            <div className="link">
-                <a href="https://www.linkedin.com/in/martin-kero-63308950" target="_blank" rel="noopener noreferrer">Linkedin</a>
-            </div>
-            <div className="link">
-                <a href="https://github.com/martinkero" target="_blank" rel="noopener noreferrer">GitHub</a>
-            </div>
+            <Link href="https://www.linkedin.com/in/martin-kero-63308950" text="LinkedIn" className="link" />
+            <Link href="https://github.com/martinkero" text="GitHub" className="link" />
         </footer>
     </div>
