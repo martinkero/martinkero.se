@@ -9,4 +9,4 @@ deploy:
   on:
     branch: master
   fqdn: martinkero.se
-  local_dir: build
+  local_dir: public
