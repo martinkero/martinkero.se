@@ -1,9 +1,12 @@
 language: node_js
 node_js:
   - node
+env:
+  global:
+    - NODE_ENV=production
 cache:
   directories:
-  - node_modules
+    - node_modules
 script:
   - npm run build
 deploy:
@@ -12,6 +15,6 @@ deploy:
   github_token: $GITHUB_TOKEN
   keep_history: true
   on:
-    branch: master
+    branch: develop
   fqdn: martinkero.se
   local_dir: build

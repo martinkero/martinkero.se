@@ -14,15 +14,19 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.3",
+    "tailwindcss": "^1.7.3",
     "typescript": "^3.7.5"
   },
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "prestart": "npm run build:tailwind",
     "start": "react-scripts start",
+    "prebuild": "npm run build:tailwind",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build:tailwind": "tailwind build src/tailwind/source.css -o src/tailwind/output.css"
   },
   "eslintConfig": {
     "extends": "react-app"
