@@ -15,6 +15,6 @@ deploy:
   github_token: $GITHUB_TOKEN
   keep_history: true
   on:
-    branch: develop
+    branch: master
   fqdn: martinkero.se
   local_dir: build
