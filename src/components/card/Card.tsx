@@ -1,23 +1,17 @@
-import React from 'react';
+import React from "react";
 
-import './Card.css';
-import { Link } from '../link/Link';
+import { Link } from "../link/Link";
 
-export const Card = () =>
-    <div className="card">
-        <header>
-            <p className="name">
-                Martin Kero
-            </p>
-            <p>
-                Utvecklare
-            </p>
-        </header>
-        <section>
-            <div className="wip">WIP</div>
-        </section>
-        <footer>
-            <Link href="https://www.linkedin.com/in/martin-kero-63308950" text="LinkedIn" className="link" />
-            <Link href="https://github.com/martinkero" text="GitHub" className="link" />
-        </footer>
-    </div>
+interface args {
+  text: React.ReactNode;
+  header?: React.ReactNode;
+  footer?: React.ReactNode;
+}
+
+export const Card = ({ header, text, footer }: args) => (
+  <div className="card  bg-gray-400 text-gray-900 rounded-lg p-4">
+    {header}
+    <section>{text}</section>
+    {footer}
+  </div>
+);
