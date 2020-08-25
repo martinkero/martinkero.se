@@ -1,7 +1,5 @@
 import React from "react";
 
-import { Link } from "../link/Link";
-
 interface args {
   text: React.ReactNode;
   header?: React.ReactNode;
