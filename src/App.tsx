@@ -83,7 +83,7 @@ const App = () => {
           <Divider text="2014" />
         </Cards>
         <Footer>
-          <Link href="https://travis-ci.org/github/martinkero/martinkero.se" text="Travis CI" />
+          <Link href="https://app.travis-ci.com/github/martinkero/martinkero.se" text="Travis CI" />
         </Footer>
       </ThemeProvider>
     </>
