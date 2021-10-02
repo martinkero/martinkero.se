@@ -2,31 +2,12 @@ import React from "react";
 import { Card } from "./components/Card";
 import { Link } from "./components/Link";
 import { Divider } from "./components/Divider";
-import styled, { createGlobalStyle } from "styled-components";
+import styled, { createGlobalStyle, DefaultTheme } from "styled-components";
 import { ThemeProvider } from "styled-components";
 import GlobalFonts from "./fonts/fonts";
+import theme from "./theme";
 
-const theme = {
-  colors: {
-    blue: "#2d3748",
-    blueLight: "#3c4960",
-    gray: "#cbd5e0",
-  },
-  font: "Open Sans",
-  fontSize: {
-    small: "1rem",
-    medium: "1.25rem",
-    large: "2rem",
-  },
-};
-
-type ThemeType = typeof theme;
-
-declare module "styled-components" {
-  export interface DefaultTheme extends ThemeType {}
-}
-
-const GlobalStyle = createGlobalStyle<{ theme: ThemeType }>`
+const GlobalStyle = createGlobalStyle<{ theme: DefaultTheme }>`
   body {
     font-family: "Open Sans";
     font-size: ${({ theme }) => theme.fontSize.small};
@@ -36,10 +17,12 @@ const GlobalStyle = createGlobalStyle<{ theme: ThemeType }>`
     text-decoration: none;
   }
 `;
+
 const Cards = styled.div`
   max-width: 31rem;
   margin: 8rem auto 0;
 `;
+
 const Footer = styled.footer`
   position: absolute;
   bottom: 0;
