@@ -35,58 +35,56 @@ const Footer = styled.footer`
 
 const App = () => {
   return (
-    <>
-      <ThemeProvider theme={theme}>
-        <GlobalStyle />
-        <GlobalFonts />
-        <Cards>
-          <Card
-            header="Martin Kero"
-            content="Autodidact developer currently located in northern Sweden"
-            footer={
-              <>
-                <Link href="https://www.linkedin.com/in/martin-kero-63308950" text="LinkedIn" />
-                <Link href="https://github.com/martinkero" text="GitHub" />
-              </>
-            }
-            headerFontSize={theme.fontSize.large}
-          />
-          <Divider text="Today" />
-          <Card
-            header="Nordic Peak"
-            content={
-              <ul>
-                <li>Java</li>
-                <li>Javascript</li>
-                <li>jQuery</li>
-                <li>OpenHierarchy</li>
-                <li>MySQL</li>
-              </ul>
-            }
-          />
-          <Divider text="2018" />
-          <Card
-            header="ClearIT"
-            content={
-              <ul>
-                <li>Linux sysadmin</li>
-                <li>Asterisk / SIP</li>
-                <li>Support</li>
-                <li>Java</li>
-                <li>Golang</li>
-                <li>JasperReports</li>
-                <li>OracleSQL / PostgreSQL</li>
-                <li>MongoDB</li>
-              </ul>
-            }
-          />
-          <Divider text="2014" />
-        </Cards>
-        <Footer>
-          <Link href="https://app.travis-ci.com/github/martinkero/martinkero.se" text="Travis CI" />
-        </Footer>
-      </ThemeProvider>
-    </>
+    <ThemeProvider theme={theme}>
+      <GlobalStyle />
+      <GlobalFonts />
+      <Cards>
+        <Card
+          header="Martin Kero"
+          content="Autodidact developer currently located in northern Sweden"
+          footer={
+            <>
+              <Link href="https://www.linkedin.com/in/martin-kero-63308950" text="LinkedIn" />
+              <Link href="https://github.com/martinkero" text="GitHub" />
+            </>
+          }
+          headerFontSize={theme.fontSize.large}
+        />
+        <Divider text="Today" />
+        <Card
+          header="Nordic Peak"
+          content={
+            <ul>
+              <li>Java</li>
+              <li>Javascript</li>
+              <li>jQuery</li>
+              <li>OpenHierarchy</li>
+              <li>MySQL</li>
+            </ul>
+          }
+        />
+        <Divider text="2018" />
+        <Card
+          header="ClearIT"
+          content={
+            <ul>
+              <li>Linux sysadmin</li>
+              <li>Asterisk / SIP</li>
+              <li>Support</li>
+              <li>Java</li>
+              <li>Golang</li>
+              <li>JasperReports</li>
+              <li>OracleSQL / PostgreSQL</li>
+              <li>MongoDB</li>
+            </ul>
+          }
+        />
+        <Divider text="2014" />
+      </Cards>
+      <Footer>
+        <Link href="https://app.travis-ci.com/github/martinkero/martinkero.se" text="Travis CI" />
+      </Footer>
+    </ThemeProvider>
   );
 };
 
