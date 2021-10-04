@@ -24,7 +24,7 @@ const Cards = styled.div`
 `;
 
 const Footer = styled.footer`
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   padding: 0.5rem;
